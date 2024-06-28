@@ -18,7 +18,7 @@ python3 clustering-Gmin.py
 
 The PCA and BIRCH methods are implemented in clustering-Gmin.py. This script reads data from 'data-summary.csv' and 'new.csv' to cluster high- and low-performing nanoclusters. You can create your own 'new.csv' file to input your data. The columns should be organized as follows:
 - System label
-- ΔG_min
+- ΔG_min (If not available, set to 9999)
 - Partial charge of M1
 - Partial charge of M2
 - Partial charge of M3
